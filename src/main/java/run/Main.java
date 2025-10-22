@@ -26,7 +26,10 @@ public class Main {
 
         System.out.println("Registros almacenados");
         List<Autor> autores = dao.getALL("autores.ALL", Autor.class);
-        autores.forEach(autor -> System.out.println(autor.getNombre()));
+        for (Autor a : autores){
+
+            System.out.println(a.getNombre());
+        }
     }
 
     public static void actualizarAutor(){
