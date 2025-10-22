@@ -1,4 +1,4 @@
-package dao;
+package services.dao;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.TypedQuery;
